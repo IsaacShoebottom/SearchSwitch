@@ -1,13 +1,13 @@
 {
     "name": "SearchSwitcher",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Search switcher",
     "manifest_version": 3,
     "author": "Isaac Shoebottom",
     "action": {
 		"default_title": "Switch Search"
 	  },
-	  "permissions": ["activeTab", "tabs", "scripting"],
+	  "permissions": ["activeTab", "scripting"],
 	  "background": {
 		"service_worker": "background.js"
 	  }
