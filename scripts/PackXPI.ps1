@@ -3,4 +3,4 @@ $compress = @{
   CompressionLevel = "NoCompression"
   DestinationPath = "output\SearchSwitch.zip"
 }
-Compress-Archive @compress
+Compress-Archive @compress -Force
